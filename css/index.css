@@ -851,32 +851,32 @@ html {
     }
 }
 
-.inner_bg img:nth-child(1)
+.inner_bg div:nth-child(1)
 {
     position: relative;
     top:-10px;
     left: 0px;
     width:.8rem;
     height:.76rem;
-    display: inline-block;
+    opacity: 0;
 }
-.inner_bg img:nth-child(2)
+.inner_bg div:nth-child(2)
  {
      width:.9rem;
      height:.87rem;
     margin-left:.5rem;
-    display: inline-block;
+    opacity: 0;
  }
-.inner_bg img:nth-child(3)
+.inner_bg div:nth-child(3)
 {
     width:.87rem;
     height:.8rem;
     position: relative;
     top:-0.07rem;
     margin-left: .5rem;
-    display: inline-block;
+    opacity: 0;
 }
-#page1 .inner_bg img:nth-child(1),#page1 .inner_bg img:nth-child(2),#page1 .inner_bg img:nth-child(3)
+#page1 .inner_bg div:nth-child(1),#page1 .inner_bg div:nth-child(2),#page1 .inner_bg div:nth-child(3)
 {
     -webkit-transition:fadeInLeft 1s linear 0s 1 forwards ;
     animation: fadeInLeft 2s ease 0s 1 forwards ;
