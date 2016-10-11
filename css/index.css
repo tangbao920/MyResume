@@ -851,30 +851,35 @@ html {
     }
 }
 
-.inner_bg div:nth-child(1)
+.inner_bg div:nth-child(1) img
 {
     position: relative;
     top:-10px;
     left: 0px;
     width:.8rem;
     height:.76rem;
-    opacity: 0;
+    display: inline-block;
 }
-.inner_bg div:nth-child(2)
+.inner_bg div:nth-child(2) img
  {
      width:.9rem;
      height:.87rem;
     margin-left:.5rem;
-    opacity: 0;
+    display: inline-block;
  }
-.inner_bg div:nth-child(3)
+.inner_bg div:nth-child(3) img
 {
     width:.87rem;
     height:.8rem;
     position: relative;
     top:-0.07rem;
     margin-left: .5rem;
+    display: inline-block;
+}
+.inner_bg div
+{
     opacity: 0;
+    float:left;
 }
 #page1 .inner_bg div:nth-child(1),#page1 .inner_bg div:nth-child(2),#page1 .inner_bg div:nth-child(3)
 {
